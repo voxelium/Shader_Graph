@@ -56,8 +56,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Elipse_Radius: 0.261
-    - _Mask_Feather: 1.5
+    - _Elipse_Radius: 0.226
+    - _Mask_Feather: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
