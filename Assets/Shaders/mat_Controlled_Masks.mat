@@ -53,15 +53,15 @@ Material:
     m_Ints: []
     m_Floats:
     - _Mask_01_Feather: 0.25
-    - _Mask_01_Radius: 0.152
+    - _Mask_01_Radius: 0.105
     - _Mask_02_Feather: 0.25
     - _Mask_02_Radius: 0.3
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - _Mask_01_Offset: {r: -0.24, g: 0, b: 0, a: 0}
-    - _Mask_01_Position: {r: -0.24, g: 0, b: 0, a: 0}
-    - _Mask_02_Position: {r: 0.18, g: 0, b: 0, a: 0}
+    - _Mask_01_Position: {r: 0, g: 0, b: 0, a: 0}
+    - _Mask_02_Position: {r: 0.27, g: 0, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
