@@ -7,11 +7,10 @@ using static UnityEngine.GraphicsBuffer;
 
 public class Controlled_Masks : MonoBehaviour
 {
-    //[SerializeField] private Material maskedMat;
-    [SerializeField] Transform testTransform;
+    //[SerializeField] Transform testTransform;
     private Material maskedMat;
-    //private TargetMask[] targetsMasks;
-    private Transform[] targetsMasks;
+    private TargetMask[] targetsMasks;
+    //private Transform[] targetsMasks;
 
 
     private int targetsAmount;
@@ -24,15 +23,17 @@ public class Controlled_Masks : MonoBehaviour
 
     private void Start()
     {
-        targetsMasks = GetComponentsInChildren<Transform>();
+        targetsMasks = GetComponentsInChildren<TargetMask>();
         targetsAmount = targetsMasks.Length;
-
+        Debug.Log(targetsMasks.Length);
         
     }
 
     private void Update()
     {
-        maskedMat.SetVector("_Mask_01_Position", testTransform.position);
+        maskedMat.SetVector("_Mask_00_Position", targetsMasks[0].transform.localPosition);
+        maskedMat.SetVector("_Mask_01_Position", targetsMasks[1].transform.localPosition);
+        maskedMat.SetVector("_Mask_02_Position", targetsMasks[2].transform.localPosition);
     }
 
 }
