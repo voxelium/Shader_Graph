@@ -55,9 +55,9 @@ Material:
     - _Mask_00_Feather: 0.25
     - _Mask_00_Radius: 0.1
     - _Mask_01_Feather: 0.25
-    - _Mask_01_Radius: 0.1
+    - _Mask_01_Radius: 0.15
     - _Mask_02_Feather: 0.25
-    - _Mask_02_Radius: 0.1
+    - _Mask_02_Radius: 0.2
     - _Mask_03_Feather: 0.25
     - _Mask_03_Radius: 0.1
     - _QueueControl: 0
